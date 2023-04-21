@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>VIP Waitlist</title>
+	<link rel="stylesheet" type="text/css" href="./css/list.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<!-- <li><a href="#">Home</a></li> -->
+				<li><a href="./index.html">About</a></li>
+				<li><a href="./tos.html">Terms Of Service</a></li>
+				<li><a href="#">Join VIP Wait List</a></li>
+			</ul>
+		</nav>
+		<h2>Be The Centerpeice.<i> Train AI like a Pro.</i></h2>
+	</header>
+
+	<main>
+		<section>
+			<div class="gallery">
+				<img src="img/tarot4.jpg" alt="tarot card" class="home_example">
+				<img src="img/tarot5.jpg" alt="tarot card" class="home_example">
+				<img src="img/tarot6.jpg" alt="tarot card" class="home_example">
+				<img src="img/tarot7.jpg" alt="tarot card" class="home_example">
+				<img src="img/tarot1.jpg" alt="tarot card" class="home_example">
+				<img src="img/tarot3.jpg" alt="tarot card" class="home_example">
+			</div>
+		</section>
+
+		<div class = "container">
+			<div class = "signup">
+			<section>
+				<head>
+					<title>Email Signup Form</title>
+					<script>
+						function validateForm() {
+						var email = document.forms["signupForm"]["email"].value;
+						if (email == "") {
+							alert("Please enyer your email address.");
+							return false;
+						}
+						}
+					</script>
+				</head>
+				<body>
+					<h2>We'll write you. </h2>
+					<form name="signupForm" onsubmit="return validateForm()" method="post">
+						<label for="first_name">First Name:</label>
+						<input type="text"  name="first_name"><br><br>
+					</form>
+					<form name="signupForm" onsubmit="return validateForm()" method="post">
+						<label for="last_name">Last Name:</label>
+						<input type="text"  name="last_name"><br><br>
+					</form>
+					<form name="signupForm" onsubmit="return validateForm()" method="post">
+						<label for="email">Email Address:</label>
+						<input type="text"  name="email"><br><br>
+						<input type="submit" value="Sign Up">
+					</form>
+				</body>
+			</section>
+		</div>
+		<div class = "expect">
+			<section>
+				<h2>What to Expect...</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+					est laborum.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+					est laborum.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+					est laborum.
+				</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+					ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+					sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+					est laborum.
+				</p>
+			</section>
+		</div>
+	</main>
+
+	<footer>
+		<p>&copy; 2023 Custom Tarot. All rights reserved.</p>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+</html>

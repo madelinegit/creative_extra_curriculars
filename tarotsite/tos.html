@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Terms of Service</title>
+	<link rel="stylesheet" type="text/css" href="./css/tos.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class ="header">
+		<div class ="nav">
+			<ul>
+				<!-- <li><a href="#">Home</a></li> -->
+				<li><a href="./index.html ">About</a></li>
+				<li><a href="#">Terms Of Service</a></li>
+				<li><a href="./list.html">Join VIP Wait List</a></li>
+			</ul>
+		</div>
+        <h1>Custom Tarot</h1>
+		<p><i>Cultivate magic from your existing artwork for a one-of-a-kind AI curated tarot experience.</i></p>
+	</div>
+
+    <div class = "bar">
+    </div>
+    <div class = "terms">
+        <h1>Terms Of Service</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+        </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+            est laborum.
+        </p>
+        <script>
+            function disableSubmit() {
+            document.getElementById("submit").disabled = true;
+            }
+            function activateButton(element) {
+                if(element.checked) {
+                    document.getElementById("submit").disabled = false;
+                }
+                else  {
+                    document.getElementById("submit").disabled = true;
+                }
+            }
+        </script>
+
+        <body onload="disableSubmit()">
+            <input type="checkbox" name="terms" id="terms" onchange="activateButton(this)">  I Agree Terms & Coditions
+        <br><br>
+            <input type="submit" name="submit" id="submit">
+    </div>
+
+    <div class = "bar"></div>
+
+    <div class="gallery">
+        <img src="img/tarot4.jpg" alt="tarot card" class="home_example">
+        <img src="img/tarot5.jpg" alt="tarot card" class="home_example">
+        <img src="img/tarot6.jpg" alt="tarot card" class="home_example">
+        <img src="img/tarot7.jpg" alt="tarot card" class="home_example">
+    </div>
+
+    <div class = "bar">
+        </div>
+
+	<div class = "footer">
+		<p>&copy; 2023 Custom Tarot. All rights reserved.</p>
+    </div>
+
+	<script src="script.js"></script>
+
+</body>
+</html>
